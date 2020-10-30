@@ -5,9 +5,9 @@ key=""
 weatherkey=""
 @app.route('/')
 def index():
-    f=open("number.txt",'r')
-    num=f.readline()
-    f.close()
+    #f=open("number.txt",'r')
+    num=3
+    #f.close()
     return render_template('time.html', number=num)
 if __name__ == '__main__':
     app.run(
