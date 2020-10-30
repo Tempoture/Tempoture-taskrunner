@@ -1,2 +1,2 @@
 web: gunicorn app: scanandshow
-clock: taskrunner
+clock: python taskrunner.py
