@@ -1,2 +1,2 @@
-app: python scanandshow.py
+web: python scanandshow.py
 clock: python taskrunner.py
